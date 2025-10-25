@@ -1,0 +1,8 @@
+Rough
+# Machine Learning/venv/
+*venv/
+__pycache__/
+*.pyc
+
+Stock Images
+Car Game

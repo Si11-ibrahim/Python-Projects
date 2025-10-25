@@ -13,7 +13,7 @@ def showHint():
 
 def showBoard(boardVal):
     print(f"\t\t{'-' if boardVal[1] == '' else boardVal[1]} {'-' if boardVal[2] == '' else boardVal[2]} {'-' if boardVal[3] == '' else boardVal[3]}")
-    print(f"\t\t{'-' if boardVal[4] == '' else boardVal[4]} {' -' if boardVal[5] == '' else boardVal[5]} {'-' if boardVal[6] == '' else boardVal[6]}")
+    print(f"\t\t{'-' if boardVal[4] == '' else boardVal[4]} {'-' if boardVal[5] == '' else boardVal[5]} {'-' if boardVal[6] == '' else boardVal[6]}")
     print(f"\t\t{'-' if boardVal[7] == '' else boardVal[7]} {'-' if boardVal[8] == '' else boardVal[8]} {'-' if boardVal[9] == '' else boardVal[9]}")
 
 
@@ -52,7 +52,7 @@ def placeMark(player, board):
             print('\nInput should be 1 - 9')
 
         elif board[position] != '':
-            print('\nThe position is already taken')
+            print('\nThe position is already taken choose wisely\n')
 
 
         elif isBoardFull():
